@@ -25,6 +25,8 @@ Når dette fungerer kan vi gå videre.
 I denne oppgaven skal vi få roboten til å vinke og blunke med øynene, når det blir for lyst eller for mørkt, bruker du en micro:bit V2 kan du bytte ut lys med lyd.
 (Det er også lurt å legge inn slik at man kan teste, derfor legger vi inn slik at den reagerer på knappe A)
 
+til dette trenger vi flere typer blokker, 
+
 
 
 
