@@ -9,7 +9,8 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "myrobot2v21.md"
     ],
     "testFiles": [
         "test.ts"
