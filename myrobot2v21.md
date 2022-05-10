@@ -59,6 +59,14 @@ pins.digitalWritePin(DigitalPin.P2, 0)
 pins.servoWritePin(AnalogPin.P0, 30)
 ```
 
+Da er vi ferdig med starten og kan gå videre, bar jobbet så langt
+
+## Hovedoppgaven
+Målet vårt er jo å få roboten vår til å vinke og blunke med øynene når vi senker lyset, eller med microbit V2 lager masse lyd, for å få til dette må vi starte koden med en IF/ELLER.
+(Det er også lurt å legge inn en liten test, så i vår kode har vi valgt å legge inn at den også fungerer ved å trykke på knapp A)
+
+
+
 
 
 
