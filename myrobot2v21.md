@@ -111,6 +111,8 @@ Tidligere sa vi også at det er lurt og ha med en test, denne la vi på knapp A,
 
 ## Handling når ting stemmer
 
+Nå må vi gå løs på hva som skal skje når det blir mørkt eller vi trykker knapp a
+
 
 
 
