@@ -65,6 +65,61 @@ Da er vi ferdig med starten og kan gå videre, bar jobbet så langt
 Målet vårt er jo å få roboten vår til å vinke og blunke med øynene når vi senker lyset, eller med microbit V2 lager masse lyd, for å få til dette må vi starte koden med en IF/ELLER.
 (Det er også lurt å legge inn en liten test, så i vår kode har vi valgt å legge inn at den også fungerer ved å trykke på knapp A)
 
+Nå trenger vi flere blokker, la oss starte med IF/ELLER
+
+```block
+if (true) {
+    	
+    } else {
+    	
+    }
+    ```
+Her må vi fortelle hva vi skal sjekk og verdiene den skal reagere på, da trenger vi følgende blokk, dette er en eller (or) blokk som gjør at vi kan sjekke om dette eller dette er gjort
+(du finner denne også under ``||logic:logic -> boolean||``)
+
+```block
+if (false || false) {
+    	
+    } else {
+    	
+    }
+```
+
+Nå kan vi legge til verdiene vi må sammenlikne for å utføre handlingen, dette finner vi også under ``||logic: logic -> comparison||``, der vi nå skal teste om lysnivået er lik eller under 60
+Vi må da bruke ``||input: light level||`` i spørringen vårt
+
+```block
+if (input.lightLevel() <= 60 || false) {
+    	
+    } else {
+    	
+    }
+```
+Tidligere sa vi også at det er lurt og ha med en test, denne la vi på knapp A, dette er også en ``||input: input blokk||``
+
+ ### koden vi har kommet frem til så langt skal da være:
+
+```blocks
+    basic.forever(function () {
+    if (input.lightLevel() <= 60 || input.buttonIsPressed(Button.A)) {
+    	
+    } else {
+    	
+    }
+})
+```
+
+## Handling når ting stemmer
+
+
+
+
+
+
+
+    
+
+
 
 
 
