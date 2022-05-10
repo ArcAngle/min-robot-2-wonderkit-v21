@@ -1,6 +1,12 @@
 
 > Open this page at [https://arcangle.github.io/min-robot-2-wonderkit-v21/](https://arcangle.github.io/min-robot-2-wonderkit-v21/)
 
+## Kodeinstruksjoner
+Trykk liniken under for å komme til steg for steg instruksjoner for programeringen av Min Robot 2
+[Min Robot 2 koden steg for steg](/myrobot2v21.md)
+
+
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
