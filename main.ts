@@ -19,10 +19,3 @@ basic.forever(function () {
         basic.showIcon(IconNames.Happy)
     }
 })
-basic.forever(function () {
-    if (input.lightLevel() <= 60 || input.buttonIsPressed(Button.A)) {
-    	
-    } else {
-    	
-    }
-})
